@@ -213,7 +213,7 @@ const TradingPlatformPage: React.FC = () => {
 
   return (
     <>
-      <div className="relative overflow-hidden ">
+      <div className="relative overflow-hidden px-12">
         {/* Background Pattern */}
 
         {/* Hero Title */}
@@ -489,7 +489,7 @@ const TradingPlatformPage: React.FC = () => {
         </h1>
 
         {/* Foreground Content */}
-        <div className="relative z-10 flex flex-col items-center" style={{ perspective: 100 }}>
+        <div className="relative z-10 flex flex-col items-center hover:scale-110 transition-all duration-300 ease-in-out" style={{ perspective: 1000 }}>
           {/* QR Code */}
           <motion.div
             style={{ 
@@ -517,7 +517,7 @@ const TradingPlatformPage: React.FC = () => {
           className="absolute text-[10vw] font-bold whitespace-nowrap text-white transition-transform duration-75 top-[70%]"
         >
           {/* App Store Buttons */}
-          <div className="flex gap-4 mt-6 ">
+          <div className="flex gap-4 mt-6">
             {/* Foreground image */}
             <a href="#">
               <img
