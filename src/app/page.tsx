@@ -3,7 +3,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { ArrowRight, TrendingUp, Users, Shield, Zap } from 'lucide-react';
 import Btn from '@/components/Btn';
 import TimelineComponent from './Home';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
@@ -244,7 +243,7 @@ const TradingPlatformPage: React.FC = () => {
 
         <div className="text-center mt-6 mb-18">
           <Btn>
-            Open FREE Account <ArrowRight className="w-5 h-5" />
+            Open FREE Account 
           </Btn>
         </div>
       </div>
